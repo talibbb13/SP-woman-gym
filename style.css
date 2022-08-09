@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Rubik&family=Ubuntu&display=swap');
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: white;
+        font-family: "ubuntu";
+}
+
+body {
+        margin: 0px 20px;
+        background-image: url("background.jpg");
+        background-repeat: no-repeat;
+        background-size: 100vh;
+        background-color: black;
+}
+
+header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.left {
+        /* border: 3px solid white; */
+        text-align: center;
+        font-size: 20px;
+        font-weight: 900;
+}
+
+.left:hover {
+        box-shadow: 3px 5px 10px rgba(178, 117, 117, 0.78);
+}
+
+.left img {
+        height: 70px;
+        filter: invert(100%);
+        border-radius: 100%;
+}
+
+.center {
+        /*  border: 3px solid greenyellow; */
+        width: 500px;
+        height: 100px;
+        font-size: 25px;
+        font-family: bold;
+}
+
+.center ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 33px;
+}
+
+.center ul i {
+        margin-right: 5px;
+}
+
+.center .active {
+        color: red;
+        font-weight: 900;
+        text-decoration: underline;
+        box-shadow: 3px 5px 10px rgba(238, 121, 121, 0.5);
+}
+
+.center li:hover {
+        color: red;
+        font-weight: 900;
+        text-decoration: underline;
+        box-shadow: 3px 5px 10px rgba(238, 121, 121, 0.5);
+}
+
+.right {
+        /*   border: 3px solid yellow; */
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+}
+
+.right button {
+        background-color: darkred;
+        padding: 7px 25px;
+        border: 1px groove goldenrod;
+        border-radius: 10px;
+        color: yellow;
+        font-size: 0.8rem;
+        font-weight: bold;
+}
+
+.right button:hover {
+        background-color: red;
+        box-shadow: 3px 5px 10px hsla(235, 15%, 72%, 0.5);
+}
+
+.content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.join-us {
+        border: 3px solid white;
+        height: 30vh;
+        width: 70vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 7px;
+        text-align: center;
+        background-color: rgba(218, 77, 77, 0.05);
+}
+
+.join-us h1 {
+        font-size: 3rem;
+        margin: 10px 5px;
+        font-weight: 900;
+        transition: 1s;
+}
+
+.join-us .form input,
+textarea {
+        width: 40vw;
+        overflow: hidden;
+        color: black;
+        padding: 5px 2ter;
+        margin: 5px 0px;
+        font-size: 23px;
+        outline: none;
+        border: 2px solid grey;
+        border-radius: 7px;
+        transition: 2s;
+        text-align: center;
+}
+
+input[type=text]:hover {
+        border-color: dodgerblue;
+        box-shadow: 0px 0px 8px 0px dodgerblue;
+}
+
+.join-us form button {
+        padding: 8px 26px;
+        margin: 17px 10px;
+        color: black;
+        border-radius: 10px;
+        transition: 1s;
+        font-weight: 900;
+}
+
+.join-us form .submit {
+        background-color: rgba(76, 217, 102, 1);
+}
+
+.join-us form .reset {
+        background-color: rgba(217, 76, 76, 1);
+}
+
+.join-us form .reset:hover {
+        background-color: bluehsla(360, 58%, 34%, 1);
+        box-shadow: 4px 6px 10px hsla(360, 83%, 18%, 1);
+}
+
+.join-us form .submit:hover {
+        background-color: rgba(76, 217, 102, 1);
+        box-shadow: 5px 7px 8px hsla(120, 83%, 18%, 1);
+}
+.plans {
+        padding: 20px 30px;
+}
+.plans h1 {
+        font-size: 3rem;
+        margin: 7px 0px;
+}
+.couple {
+        border: 3px solid white;
+        border-radius: 15px;
+        width: 90vw;
+        height: 15vh;
+        display: block;
+        margin: 15px auto;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 3s;
+}
+.couple::before {
+        content: "";
+        background-image: url("plan1.jpg");
+                background-repeat: no-repeat;
+        background-position: center;
+        opacity: 0.7;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: auto;
+        height: auto;
+        z-index: -3;
+}
+.belly {
+        border: 3px solid white;
+        border-radius: 15px;
+        width: 90vw;
+        height: 15vh;
+        display: block;
+        margin: 15px auto;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 3s;
+}
+.belly::before {
+        content: "";
+        background-image: url("plan2.jpg");
+                background-repeat: no-repeat;
+        background-position: center;
+        background-size: 90vw;
+        opacity: 0.7;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: auto;
+        height: auto;
+        z-index: -3;
+}
+.butt {
+        border: 3px solid white;
+        border-radius: 15px;
+        width: 90vw;
+        height: 15vh;
+        display: block;
+        margin: 15px auto;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 3s;
+}
+.butt::before {
+        content: "";
+        background-image: url("plan3.jpeg");
+                background-repeat: no-repeat;
+        background-position: center;
+        background-size: 90vw;
+        opacity: 0.7;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: auto;
+        height: auto;
+        z-index: -3;
+}
+.couple h1, .belly h1, butt h1 {
+        font-size: 2.5rem;
+}
+.discover {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-image: linear-gradient(to bottom, #000000, #200415, #2e052a, #330949, #191970);
+        font-size: 40px;
+        height: 10vh;
+}
+.discover button {
+        padding: 25px 60px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-image: linear-gradient(to right bottom, #000000, #420f1d, #820327, #c20023, #ff0000);
+        color: white;
+        font-weight: 900;
+}
