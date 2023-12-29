@@ -13,7 +13,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100vh;
   background-color: black;
-  background-image: url("background.jpg");
+  background-image: url("./Images/background.jpg");
     backdrop-filter: blur(1px);
 }
 
@@ -193,7 +193,7 @@ textarea:hover {
   align-items: center;
   text-transform: capitalize;
   cursor: pointer;
-  background-image: url("plan1.jpg");
+  background-image: url("./Images/plan1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -220,7 +220,7 @@ textarea:hover {
   align-items: center;
   text-transform: capitalize;
   cursor: pointer;
-  background-image: url("plan2.jpg");
+  background-image: url("./Images/plan2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -247,7 +247,7 @@ textarea:hover {
   align-items: center;
   text-transform: capitalize;
   cursor: pointer;
-  background-image: url("plan3.jpeg");
+  background-image: url("./Images/plan3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
