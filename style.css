@@ -13,6 +13,8 @@ body {
   background-repeat: no-repeat;
   background-size: 100vh;
   background-color: black;
+  background-image: url("background.jpg");
+    backdrop-filter: blur(1px);
 }
 
 header {
