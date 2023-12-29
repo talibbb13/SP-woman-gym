@@ -92,9 +92,9 @@ li:hover {
   font-weight: 500;
 }
 
-.right button:hover{
-      transform: scale(1.1); 
-  background-color: #cc2200; 
+.right button:hover {
+  transform: scale(1.1);
+  background-color: #cc2200;
 }
 
 .content {
@@ -138,7 +138,7 @@ textarea {
 }
 
 .join-us .form input:hover,
-textarea:hover{
+textarea:hover {
   background-color: #d3d3d3;
 }
 
@@ -149,18 +149,17 @@ textarea:hover{
   border-radius: 10px;
   border: none;
   font-weight: 900;
-      cursor: pointer;
-      transition: all 0.3s ease;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .join-us form .submit {
   background-color: rgba(76, 217, 102, 1);
-   
 }
 
 .join-us form .submit:hover {
-  transform: scale(1.1); 
-  background-color: #00cc00; 
+  transform: scale(1.1);
+  background-color: #00cc00;
 }
 
 .join-us form .reset {
@@ -168,8 +167,8 @@ textarea:hover{
 }
 
 .join-us form .reset:hover {
-    transform: scale(1.1); 
-  background-color: #cc2200; 
+  transform: scale(1.1);
+  background-color: #cc2200;
 }
 
 .plans {
@@ -192,6 +191,11 @@ textarea:hover{
   align-items: center;
   text-transform: capitalize;
   cursor: pointer;
+  background-image: url("plan1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  letter-spacing: 1px;
 }
 
 .couple-content {
@@ -201,21 +205,6 @@ textarea:hover{
   padding: 0.3vw 1vw;
   border-radius: 0.3vw;
   font-size: 1.7vw;
-}
-
-.couple::before {
-  content: "";
-  background-image: url("plan1.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: auto;
-  height: auto;
-  z-index: -3;
 }
 
 .belly {
@@ -229,6 +218,11 @@ textarea:hover{
   align-items: center;
   text-transform: capitalize;
   cursor: pointer;
+  background-image: url("plan2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  letter-spacing: 1px;
 }
 
 .belly-content {
@@ -238,22 +232,6 @@ textarea:hover{
   padding: 0.3vw 1vw;
   border-radius: 0.3vw;
   font-size: 1.7vw;
-}
-
-.belly::before {
-  content: "";
-  background-image: url("plan2.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 90vw;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: auto;
-  height: auto;
-  z-index: -3;
 }
 
 .butt {
@@ -267,6 +245,11 @@ textarea:hover{
   align-items: center;
   text-transform: capitalize;
   cursor: pointer;
+  background-image: url("plan3.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  letter-spacing: 1px;
 }
 
 .butt-content {
@@ -276,22 +259,6 @@ textarea:hover{
   padding: 0.3vw 1vw;
   border-radius: 0.3vw;
   font-size: 1.7vw;
-}
-
-.butt::before {
-  content: "";
-  background-image: url("plan3.jpeg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 90vw;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: auto;
-  height: auto;
-  z-index: -3;
 }
 
 .couple h1,
@@ -316,7 +283,7 @@ butt h1 {
   color: white;
   border: none;
   background: goldenrod;
-  font-size:1.7vw;
+  font-size: 1.7vw;
   color: #000;
   cursor: pointer;
 }
