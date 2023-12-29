@@ -12,7 +12,7 @@ Welcome to the Women's Gym landing page project! This is a simple dummy page cre
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/talibbb13/SP-woman-gym.git
+    git clone https://github.com/talibbb13/SP-women-gym.git
     ```
 
 2. Open the project in your preferred code editor.
